@@ -1,3 +1,7 @@
+**Veja o projeto ao vivo:**
+
+**[Simulador de Caixa Eletrônico](gghgg)**
+
 O **Simulador de Caixa Eletrônico (ATM)** é uma aplicação web desenvolvida com HTML, CSS e JavaScript que simula as operações básicas de um caixa eletrônico. Este simulador é ideal para quem deseja entender o funcionamento de transações bancárias comuns, como depósitos, saques e consultas de saldo, de forma segura e prática. A interface do simulador é intuitiva e moderna, com visual que remete a um caixa eletrônico real.
 
 Esse projeto é voltado tanto para o aprendizado básico de operações bancárias quanto para o desenvolvimento de habilidades de programação web, integrando conceitos de lógica de programação, manipulação de dados e interação com o usuário.
