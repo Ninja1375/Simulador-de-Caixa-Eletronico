@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Caixa Eletrônico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="atm-container">
+        <h1>Caixa Eletrônico</h1>
+
+        <div id="login-screen">
+            <input type="password" id="password" placeholder="Digite sua senha">
+            <button onclick="login()">Entrar</button>
+            <p id="login-message"></p>
+        </div>
+
+        <div id="atm-screen" style="display: none;">
+            <div id="balance-display">Saldo: R$ <span id="balance">0.00</span></div>
+            <input type="number" id="amount" placeholder="Digite o valor">
+            
+            <button onclick="deposit()">Depositar</button>
+            <button onclick="withdraw()">Sacar</button>
+            <button onclick="checkBalance()">Consultar Saldo</button>
+            <button onclick="showHistory()">Ver Histórico</button>
+            <button onclick="logout()">Sair</button>
+
+            <p id="message"></p>
+
+            <div id="transaction-history" style="display: none;">
+                <h2>Histórico de Transações</h2>
+                <ul id="history-list"></ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
