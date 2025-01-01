@@ -33,6 +33,10 @@ Cada transação no histórico inclui o tipo (depósito ou saque), o valor e o h
 
 **Logout:** O usuário pode encerrar a sessão, retornando à tela de login. Isso permite que o simulador seja usado novamente, simulando um ambiente multiusuário.
 
+## Demonstração
+
+![Simulador-Caixa-Eletrônico](https://github.com/user-attachments/assets/a4e103e2-6a36-4677-94c1-931be946418f)
+
 ## Objetivo Educacional ##
 
 O Simulador de Caixa Eletrônico foi criado para fins educacionais, permitindo que programadores e entusiastas aprendam a desenvolver uma aplicação completa que envolve lógica de negócio, segurança e manipulação de dados. É um excelente exemplo de como criar uma interface funcional e interativa com JavaScript, integrando conceitos como:
